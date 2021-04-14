@@ -15,10 +15,10 @@
       <!-- {% include page__meta.html type=include.type %} -->
       {% if post.has_excerpt == true %}
         <div style="display: flex; margin-top: 10px;">
-            <img class="picBox" src="/assets/images/quadrotors.jpeg" alt="Smiley face" width="30%">
+            <img src="/assets/images/quadrotors.jpeg" alt="Smiley face" width="30%" height="30%">
             <div style="margin-left: 10px; font-size: 0.8em;">
                 <div>
-                    {{ post.excerpt | markdownify | strip_html | truncate: 120 }}
+                    {{ post.excerpt | markdownify | strip_html | truncate: 100 }}
                 </div>
             </div>
         </div>
