@@ -12,9 +12,14 @@ excerpt_img: quadrotors.jpeg
 xxxxxxx
 #### 实验结果
 xxxxxxx
-<video src="/assets/media/orb_slam_demo.mp4" controls="controls">
-您的浏览器不支持 video 标签。
-</video>
+
+<div>
+  <video src="/assets/media/orb_slam_demo.mp4" controls="controls" width="80%" height="80%">
+  您的浏览器不支持 video 标签。
+  </video>
+</div>
+
+
 #### Reference
 * [pdf]({% link /assets/files/ORB_SLAM2.pdf %})
 * [video](https://www.bilibili.com/video/BV1mt4y1e7TS?from=search&seid=9580916672254488419)
